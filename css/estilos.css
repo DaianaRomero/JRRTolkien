@@ -4,7 +4,7 @@ header{
     background-position: center; 
     background-repeat: no-repeat;
     height: calc(90vh - 60px);
-    background-position: 55px -100px;
+    /*background-position: 55px -100px;
     /*padre fexible*/
     display: flex;
     flex-direction: column;
@@ -42,4 +42,16 @@ body {
     background:  url(../imagenes/fondo.jpg) repeat-y scroll 50px 0;
     background-attachment: fixed;
     filter:saturate()
+}
+
+.fotoAutorIzq {
+    float: left;
+    height: 50vh;
+
+    
+}
+
+.fotoAutorDer{
+    float: right;
+    height: 50vh;
 }
